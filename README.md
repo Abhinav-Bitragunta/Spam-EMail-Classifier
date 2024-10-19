@@ -1,4 +1,4 @@
-#Spam E-Mail Classifier
+# Spam E-Mail Classifier
 A web application built using HTML, CSS and Flask that uses an AI model trained on the Enron dataset of 'Spam' and 'Not Spam' E-Mails to classify a user input E-Mail as 'Spam' or 'Not Spam'
 
 ### About the model
