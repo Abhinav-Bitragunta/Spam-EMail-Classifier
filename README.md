@@ -9,9 +9,7 @@ It is currently being hosted on Render, [here](https://spam-email-classifier-qy4
 
 ## About the model
 
-The dataset can be found in the train-mails and test-mails directories.
-
-The script used to train the models can be found in **Models.py**, and the models trained along with the TF-IDF vectorizer can be found in the **Models/** directory.
+The script used to train the models can be found in **Models.py**, and the models trained(except RandomForest, due to its large size) along with the TF-IDF vectorizer can be found in the **Models/** directory.
 
 Multiple models were trained on this dataset and achieved the following results:
 
