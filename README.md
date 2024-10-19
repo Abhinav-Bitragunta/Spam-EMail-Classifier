@@ -21,5 +21,10 @@ If you wish to change the model used, then make the following changes in app.py:
 #from sklearn.linear_model            import LogisticRegression
 #Uncomment the model which you wish to use
 ```
+and
 
+```py
+#Replace MultinomialNB with a filename in the Models/ directory, anything except Vectorize
+model       = pickle.load(open('Models/MultinomialNB.pkl','rb')) 
+```
 
