@@ -1,7 +1,7 @@
 # Spam E-Mail Classifier
 A web application built using HTML, CSS and Flask that uses an AI model trained on the Enron dataset of 'Spam' and 'Not Spam' E-Mails to classify a user input E-Mail as 'Spam' or 'Not Spam'
 
-### About the model
+## About the model
 The dataset can be found the train-mails and test-mails directories.
 The script used to train the models can be found in **Models.py**, and the models trained along with the TF-IDF vectorizer can be found in the **Models/** directory.
 Multiple models were trained on said dataset and achieved the following results:
@@ -10,7 +10,7 @@ Multiple models were trained on said dataset and achieved the following results:
 
 Since it achieved the best results, the web-app uses a Naive Bayes model.
 
-### To change the model used
+## To change the model used
 If you wish to change the model used, then make the following changes in app.py:
 
 ```py
