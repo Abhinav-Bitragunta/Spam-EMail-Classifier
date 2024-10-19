@@ -1,0 +1,10 @@
+The test and train mails can be found here:
+https://drive.google.com/drive/folders/1RneAAJIZQquu-qhxuGvoCbZsatYmWAst?usp=sharing
+
+Extract the .txt files as follows:
+1. train-mails.tar.gz:
+    Extract to a folder named 'train-mails'
+2. test-mails.tar.gz:
+    Extract to a folder names 'test-mails'
+
+Add these folders to the root directory of the repository (i.e, in the same folder that the static/ folder is in)

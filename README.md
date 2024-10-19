@@ -59,6 +59,13 @@ model = pickle.load(open('Models/MultinomialNB.pkl','rb'))
 
 ```
 
+## To retrain the models
+
+1. Download the .tar.gz files from the drive link in static/test_train_mails.txt
+2. Extract them into appropriately named folders(**'test-mails'** and **'train-mails'**)
+3. Paste these folders into the root directory of the repository
+4. Run Models.py after changing the parameters as you wish
+
 ## Navigating the repository
 
 ### 1. Models/
@@ -71,28 +78,23 @@ The names specify the algorithm used to train them.
 
 This directory contains the CSS code for the web-app
 
-### 3. templates/
+### 3. static/test_train_mails.txt
+
+Containts drive link to dataset needed to retrain the models.
+
+### 4. templates/
 
 This directory contains the HTML file for the web-app
 
-### 4. test-mails/
-Empty. Add the .txt files extracted from test-mails.tar.gz found in the drive link in test_train_mails.txt
-
-### 5. train-mails/
-Empty. Add the .txt files extracted from train-mails.tar.gz found in the drive link in test_train_mails.txt
-
-### 6. Models.py
+### 5. Models.py
 
 This python script contains the code used to train each model and store them in Models/.
 
 It also determines the best one among them based on accuracy.
 
-### 7. app.py
+### 6. app.py
 
 This python script is the back-end of the web-app, that uses Flask to fetch from and send data to it.
 
 It loads the Naive Bayes model and the appropriate vectorizer to classify the user input as either 'Spam' or 'Not Spam'
 
-### 8. test_train_mails.txt
-
-Containts drive link to dataset needed to retrain the models.
