@@ -1,0 +1,4 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+/Models filter=lfs diff=lfs merge=lfs -text
+/train-mails filter=lfs diff=lfs merge=lfs -text
+/test-mails filter=lfs diff=lfs merge=lfs -text

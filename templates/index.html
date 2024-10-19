@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detection</title>
+    <link rel="stylesheet" href="/static/home.css">
+    <style>
+        .verdict-text{
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            border-radius: 1.5rem;
+            color: white;
+            text-shadow: 0.1rem 0.1rem black;
+            margin: 0;
+            background-color: {{color}};
+        }
+    </style>
+</head>
+<body>
+    <h1>E-Mail Spam Classifier</h1>
+    {% if prediction %}
+    <div class="verdict">
+       <p class="verdict-text">Verdict: {{prediction}}!</p>
+    </div>
+    {% endif %}
+        <form method="POST">
+            <textarea name="email" id="email" placeholder = "Enter E-Mail content here" required></textarea>
+            <div class="submit-container" ><input type="submit" value="Analyze" id="submit"></div>
+        </form>
+</body>
+</html>
