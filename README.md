@@ -76,20 +76,10 @@ This directory contains the CSS code for the web-app
 This directory contains the HTML file for the web-app
 
 ### 4. test-mails/
-
-This directory contains the (pre-classified) data that was used to test the accuracy of each model.
-
-I don't recommend opening it as it contains ~11,000 .txt files from the Enron dataset mentioned above.
-
-The files whose names start with 'spm' are labelled 'Spam', and 'Not Spam' otherwise.
+Empty. Add the .txt files extracted from test-mails.tar.gz found in the drive link in test_train_mails.txt
 
 ### 5. train-mails/
-
-This directory contains the (pre-classified) data that was used to train each model.
-
-I don't recommend opening it as it contains ~22,000 .txt files from the Enron dataset mentioned above.
-
-The files whose names start with 'spm' are labelled 'Spam', and 'Not Spam' otherwise.
+Empty. Add the .txt files extracted from train-mails.tar.gz found in the drive link in test_train_mails.txt
 
 ### 6. Models.py
 
@@ -102,3 +92,7 @@ It also determines the best one among them based on accuracy.
 This python script is the back-end of the web-app, that uses Flask to fetch from and send data to it.
 
 It loads the Naive Bayes model and the appropriate vectorizer to classify the user input as either 'Spam' or 'Not Spam'
+
+### 8. test_train_mails.txt
+
+Containts drive link to dataset needed to retrain the models.
