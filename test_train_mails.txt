@@ -1,0 +1,4 @@
+The test and train mails can be found here:
+https://drive.google.com/drive/folders/1RneAAJIZQquu-qhxuGvoCbZsatYmWAst?usp=sharing
+
+Extract the .txt files into their respective folders to retrain the models
